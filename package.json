@@ -1,0 +1,34 @@
+{
+  "name": "dest-stream",
+  "version": "0.0.1",
+  "description": "Wrapper for vinyl-source-stream and vinyl-fs to make a dest stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoubin/dest-stream.git"
+  },
+  "keywords": [
+    "destination",
+    "stream",
+    "vinyl"
+  ],
+  "author": "zoubin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zoubin/dest-stream/issues"
+  },
+  "homepage": "https://github.com/zoubin/dest-stream#readme",
+  "dependencies": {
+    "vinyl-fs": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "writable-stream-stack": "^1.0.0"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "file-exists": "^0.1.1",
+    "tape": "^4.0.0"
+  }
+}
