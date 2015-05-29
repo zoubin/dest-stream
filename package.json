@@ -1,6 +1,6 @@
 {
   "name": "dest-stream",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Wrapper for vinyl-source-stream and vinyl-fs to make a dest stream",
   "main": "index.js",
   "scripts": {
