@@ -24,7 +24,7 @@
   "dependencies": {
     "vinyl-fs": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
-    "writable-stream-stack": "^1.0.0"
+    "writable-stream-stack": "^1.0.1"
   },
   "devDependencies": {
     "faucet": "0.0.1",
