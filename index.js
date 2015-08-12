@@ -8,7 +8,7 @@ module.exports = function (filename, dest, cb) {
         cb = dest;
         dest = '';
     }
-    filename = path.resolve(dest, filename);
+    filename = path.resolve(dest || '', filename);
     var ws = Stack(
         source(path.basename(filename)),
         vfs.dest(path.dirname(filename))
